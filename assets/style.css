@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    color: #810CA8;
+    text-align: center;
+}
+
+.container-title {
+    background-color: #2D033B;
+    padding: 50px 0px;
+}
+
+.pacman {
+    width: fit-content;
+    position: relative;
+    left: 20%;
+}
+
+.pacman img {
+    width: 5rem;
+}
+
+.text-title {
+    font-family: 'Raleway', sans-serif;
+}
+
+.text-title > p {
+    font-family: 'Kanit', sans-serif;
+}

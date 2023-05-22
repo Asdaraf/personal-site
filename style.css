@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    color: #865DFF;
+    text-align: center;
+}
+
+
+.container-title {
+    background-color: #191825;
+    padding-top: 50px;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pacman {
+    position: relative;
+    width: fit-content;
+    left: 20%;
+    padding-top: 100px;
+}
+
+.pacman img {
+    width: 10rem;
+}
+
+.text-title > img {
+    width: 15rem;
+    position: absolute;
+    left: 72%;
+    top: 30%;
+}
+
+.caset img {
+    width: 25rem;
+    padding-top: 0px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 4rem;
+    -webkit-text-stroke: 1.5px #E384FF;
+}
+
+.text-title p {
+    font-family: 'Kanit', sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #E384FF;
+}
+
+.profile {
+    font-family: 'Kanit', sans-serif;
+    margin-bottom: 10rem;
+}
+
+.profile >img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.profile > p {
+    font-size: 1.8rem;
+    padding: 0 300px;
+    color: #E384FF;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.skills div {
+    width: 50%;
+    margin: 50px;
+}
+
+.skills img {
+    float: left;
+    height: 400px;
+    padding-right: 30px;
+}
+
+.skills h3 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+    color: #E384FF;
+}
+
+.contact {
+    margin: 100px 0 ;
+}
+
+.contact h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 4rem;
+}
+
+.contact h3 {
+    font-size: 2rem;
+}
+
+.contact > p {
+    padding-bottom: 50px;
+}
+
+.contact a {
+    background-image: linear-gradient(to bottom, #FFA3FD, #E384FF);
+    border-radius: 30px;
+    border-style: none;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: #865DFF;
+    font-size: 2.5rem;
+    padding: 10px 20px;
+}
+
+footer {
+    background-color:#865DFF;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.footer div {
+    padding: 30px 100px;
+}
+
+.footer a {
+    text-decoration: none;
+    color:#FFA3FD;
+}
